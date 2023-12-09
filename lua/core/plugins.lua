@@ -16,7 +16,7 @@ local plugins = {
   {'nvim-tree/nvim-tree.lua'},
   {'nvim-tree/nvim-web-devicons'},
   {'nvim-lualine/lualine.nvim'},
-  {'nvim-treesitter/nvim-treesitter'},
+  {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
   {'github/copilot.vim'},
   {'matze/vim-move'},
 
