@@ -12,28 +12,26 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-  {'ellisonleao/gruvbox.nvim'},
-  {'nvim-tree/nvim-tree.lua'},
-  {'nvim-tree/nvim-web-devicons'},
-  {'nvim-lualine/lualine.nvim'},
-  {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
-  {'github/copilot.vim'},
-  {'matze/vim-move'},
+  'ellisonleao/gruvbox.nvim',
+  'nvim-tree/nvim-tree.lua',
+  'nvim-tree/nvim-web-devicons',
+  'nvim-lualine/lualine.nvim',
+  {'nvim-treesitter/nvim-treesitter', build = ":TSUpdate"},
+  'github/copilot.vim',
+  'matze/vim-move',
 
-  {'hrsh7th/nvim-cmp'},
-  {'hrsh7th/cmp-nvim-lsp'},
-  {'L3MON4D3/LuaSnip'},
-  {'saadparwaiz1/cmp_luasnip'},
-  {'rafamadriz/friendly-snippets'},
+  'hrsh7th/nvim-cmp',
+  'hrsh7th/cmp-nvim-lsp',
+  'L3MON4D3/LuaSnip',
+  'saadparwaiz1/cmp_luasnip',
+  'rafamadriz/friendly-snippets',
 
-  {'simrat39/rust-tools.nvim'},
+  'simrat39/rust-tools.nvim',
   {'akinsho/toggleterm.nvim', version = "*", config = true},
 
-  {
-    'williamboman/mason.nvim'},
-    {'williamboman/mason-lspconfig.nvim'},
-    {'neovim/nvim-lspconfig'
-  },
+  'williamboman/mason.nvim',
+  'williamboman/mason-lspconfig.nvim',
+  'neovim/nvim-lspconfig',
   {
     'nvim-telescope/telescope.nvim',
     tag = '0.1.5',
